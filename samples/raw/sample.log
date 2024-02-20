@@ -1,0 +1,3 @@
+2024-02-20T12:34:56 traffic:1001 src_ip=192.168.1.1 dest_ip=10.0.0.1 src_port=12345 dest_port=80 protocol=TCP payload_size=1500
+2024-02-20T12:35:00 traffic:1002 src_ip=192.168.1.2 dest_ip=10.0.0.2 src_port=12346 dest_port=443 protocol=HTTPS payload_size=2000
+2024-02-20T12:35:05 traffic:1003 src_ip=192.168.1.3 dest_ip=10.0.0.3 src_port=12347 dest_port=21 protocol=FTP payload_size=750
