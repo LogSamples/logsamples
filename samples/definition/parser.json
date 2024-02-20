@@ -1,0 +1,53 @@
+{
+  "vendor": "Example Vendor",
+  "vendor_product": "Traffic Monitor",
+  "vendor_product_version": "1.0",
+  "parse_version": "1.0",
+  "contributor": {
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "date": "2024-02-20",
+  "file_definitions_version": "1.0",
+  "type": "delimiter",
+  "delimiter": " ",
+  "key_val_delimiter": "=",
+  "expressions": [
+    {
+      "expression_id": 1,
+      "expression_name": "src_ip",
+      "expression_type": "traffic",
+      "expression_data_type": "string"
+    },
+    {
+      "expression_id": 2,
+      "expression_name": "dest_ip",
+      "expression_type": "traffic",
+      "expression_data_type": "string"
+    },
+    {
+      "expression_id": 3,
+      "expression_name": "src_port",
+      "expression_type": "traffic",
+      "expression_data_type": "integer"
+    },
+    {
+      "expression_id": 4,
+      "expression_name": "dest_port",
+      "expression_type": "traffic",
+      "expression_data_type": "integer"
+    },
+    {
+      "expression_id": 5,
+      "expression_name": "protocol",
+      "expression_type": "traffic",
+      "expression_data_type": "string"
+    },
+    {
+      "expression_id": 6,
+      "expression_name": "payload_size",
+      "expression_type": "traffic",
+      "expression_data_type": "integer"
+    }
+  ]
+}
